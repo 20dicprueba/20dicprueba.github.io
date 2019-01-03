@@ -1,7 +1,80 @@
+* {
+	box-sizing: border-box;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+/*------------------
+  Estilos del header
+  ------------------*/
+header {
+	/*width: 100%;*/
+	height: 60px;
+	/*background: #333;*/
+	/*color: #fff;*/
+}
+
+header .contenedor {
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo, .icon-bars{
+	margin: 5px;
+}
+
+/*Para modificar el icono de barras descargado de internet*/
+
+.icon-bars {
+	display: block;
+	width: 40px;
+	height: 40px;
+	font-size: 30px;
+	background: #2E1760;
+	color: #fff;
+	text-align: center;
+	line-height: 45px;
+	border-radius:5px;
+	margin-left: auto;
+	cursor: pointer;
+}
+
+nav {
+	position: absolute;
+	top: 60px;
+	left: 0;
+	width: 100%;
+}
+
+.menu {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+
+}
+
+.menu__link {
+	display: block;
+	padding: 20px;
+	background: #2E1760;
+	text-decoration: none;
+	color: #fff;
+}
+
+.menu__link:hover {
+	background: #fff;
+	color: #2E1760;
+}
+
+/*Este solo lo deje para realizar unas pruebas*/
+
 .icon-1 {
 	display:inline-block;
 	width: 300px;
   height: 300px;
   background: url("../images/logotest.png") 0 0 no-repeat; 
-  background-size: 300px 300px;
+  background-size: 100px 300px;
 }
