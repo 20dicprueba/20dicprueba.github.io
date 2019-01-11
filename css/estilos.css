@@ -7,9 +7,7 @@ img {
 	max-width: 100%;
 }
 
-/*------------------
-  Estilos del header
-  ------------------*/
+/*------------------ Estilos del header ------------------*/
 header {
 	/*width: 100%;*/
 	height: 60px;
@@ -41,12 +39,13 @@ header .contenedor {
 	margin-left: auto;
 	cursor: pointer;
 }
-
+/*------------------ Estilos del menu ------------------*/
 nav {
 	position: absolute;
 	top: 60px;
-	left: 0;
+	left: -100%;
 	width: 100%;
+	transition: all 0.4s;
 }
 
 .menu {
@@ -67,6 +66,10 @@ nav {
 .menu__link:hover {
 	background: #fff;
 	color: #2E1760;
+}
+
+.mostrar {
+	left: 0;
 }
 
 /*Este solo lo deje para realizar unas pruebas*/
