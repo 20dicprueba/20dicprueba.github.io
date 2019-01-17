@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Yanone+Kaffeesatz');
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	letter-spacing: 1.5px;
+	/* font-weight:700; */
+}
+
+
 * {
 	box-sizing: border-box;
 }
@@ -39,6 +47,12 @@ header .contenedor {
 	margin-left: auto;
 	cursor: pointer;
 }
+
+/*------------------ Estilos del body ------------------*/
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
 /*------------------ Estilos del menu ------------------*/
 nav {
 	position: absolute;
@@ -71,6 +85,7 @@ nav {
 .mostrar {
 	left: 0;
 }
+
 
 /*Este solo lo deje para realizar unas pruebas*/
 
