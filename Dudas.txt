@@ -1,0 +1,2 @@
+Para manejar multiples estilos
+http://qnimate.com/using-font-face-for-bold-and-italic-style/
