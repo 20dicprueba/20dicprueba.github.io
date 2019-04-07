@@ -66,6 +66,8 @@ header .contenedor {
 /*------------------ Estilos del body ------------------*/
 body {
 	font-family: 'Open Sans', sans-serif;
+	background: #9FA2B2;/*Cambiar color del background de la pagina*/
+	/*color: #eaeaea; /*Cambiar color de la letra de la pagina*/
 }
 
 /*------------------ Estilos del menu ------------------*/
@@ -75,6 +77,10 @@ nav {
 	left: -100%;
 	width: 100%;
 	transition: all 0.4s;
+}
+
+.logo {
+	color: #2E1760;
 }
 
 .menu {
@@ -93,7 +99,7 @@ nav {
 }
 
 .menu__link:hover {
-	background: #fff;
+	background: #DBC2CF;
 	color: #2E1760;
 }
 
